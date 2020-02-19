@@ -2,7 +2,7 @@ import React from "react";
 //import useServer from "./server/useServer"
 
 export default function Cockpit({ engineMode, setEngineMode }) {
-  //const [setCourse] = useServer("your spaceship name here...")
+  //const [setCourse] = useServer("...")
 
   const IDLE = "idle";
   const THRUSTERS = "thrusters";
@@ -11,7 +11,7 @@ export default function Cockpit({ engineMode, setEngineMode }) {
   return (
     <div className="cockpit">
       <div className="engineModePanel">
-        <div>Engine mode</div>
+        <div>Engine mode:</div>
         <div>
           <input type="radio" value={IDLE} checked={engineMode === IDLE} id={IDLE} />
           <label htmlFor={IDLE}>{IDLE}</label>

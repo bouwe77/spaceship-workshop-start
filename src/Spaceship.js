@@ -5,10 +5,10 @@ import Engine from "./Engine";
 export default function Spaceship() {
   return (
     <div>
+      <Cockpit />
       <Engine />
       {/*<div>Engine</div>*/}
       {/*<div>Cockpit</div>*/}
-      <Cockpit />
     </div>
   );
 }
