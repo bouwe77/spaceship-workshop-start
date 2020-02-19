@@ -1,14 +1,10 @@
 import React from "react";
-import Cockpit from "./Cockpit";
-import Engine from "./Engine";
 
 export default function Spaceship() {
   return (
     <div>
-      <Cockpit />
-      <Engine />
-      {/*<div>Engine</div>*/}
-      {/*<div>Cockpit</div>*/}
+      <div>Engine</div>
+      <div>Cockpit</div>
     </div>
   );
 }
