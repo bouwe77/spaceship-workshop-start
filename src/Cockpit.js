@@ -37,3 +37,23 @@ export default function Cockpit({ engineMode, setEngineMode }) {
     </div>
   );
 }
+
+/*
+  function handleSpaceObjectChanged(event) {
+    // Determine the value of the selected item, which is the space object name.
+    const selectedSpaceObjectName = event.target.value;
+    setSelectedSpaceObjectName(selectedSpaceObjectName);
+
+    // If nothing was selected, quit further processing.
+    if (!selectedSpaceObjectName) return;
+
+    // A space object was selected, find it in the spaceObjects array.
+    const selectedSpaceObject = spaceObjects.find(
+      s => s.name === selectedSpaceObjectName
+    );
+
+    // Update the destination according to the selected space object's destination.
+    setDestinationX(selectedSpaceObject.destinationX);
+    setDestinationY(selectedSpaceObject.destinationY);
+  }
+  */

@@ -1,3 +1,7 @@
+body {
+  font-family: monospace;
+}
+
 .engine {
   background-image: url("https://spaceship-workshop.netlify.com/engine.png");
   width: 700px;
@@ -92,7 +96,7 @@ input[type="radio"]:checked:after {
 
 .navigationPanel input {
   width: 30px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navigationPanel label {
