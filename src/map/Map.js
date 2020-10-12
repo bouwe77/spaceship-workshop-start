@@ -125,7 +125,6 @@ export default () => {
           SVGBackground="transparent"
           miniatureProps={{ position: "none" }}
           customToolbar={() => null}
-          detectAutoPan={false}
         >
           <svg width={svgWidth} height={svgHeight}>
             <g>
