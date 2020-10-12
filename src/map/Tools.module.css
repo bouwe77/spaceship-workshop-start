@@ -1,0 +1,45 @@
+.tools {
+  display: flex;
+  margin-top: 10px;
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.coords {
+  color: green;
+  width: 160px;
+  height: 30px;
+}
+
+.jump {
+  display: flex;
+  color: green;
+  width: 480px;
+  height: 30px;
+}
+
+.coord-input {
+  width: 45px;
+  height: 16px;
+  background: none;
+  border: 1px dashed green;
+  color: green;
+  margin-right: 4px;
+}
+
+.coord-input:focus {
+  outline: none;
+}
+
+.coord-button {
+  background: none;
+  border: 1px solid green;
+  height: 20px;
+  color: green;
+  margin-right: 4px;
+}
+
+.coord-button:focus {
+  outline: none;
+}

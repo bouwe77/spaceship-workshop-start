@@ -80,7 +80,7 @@ const useServer = (spaceshipId) => {
     };
   }, [spaceshipId]);
 
-  return [setCourse, currentPosition, getCourse];
+  return { setCourse, currentPosition, getCourse };
 };
 
 export default useServer;

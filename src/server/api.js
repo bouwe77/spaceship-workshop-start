@@ -42,6 +42,15 @@ export async function getSpaceObjects() {
   }
 }
 
+export async function getSpaceObjectsForMap() {
+  try {
+    const result = await axios.get(urlSpaceObjects);
+    return result.data;
+  } catch (error) {
+    handle(error);
+  }
+}
+
 function handle(error) {
   console.log(error);
   if (error.response)
