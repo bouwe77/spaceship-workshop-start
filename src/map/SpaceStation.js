@@ -57,7 +57,7 @@ function SpaceStationLabel({
         width={textWidth}
         height={textHeight}
         style={{
-          fontFamily: "Roboto Mono",
+          fontFamily: "Share Tech Mono",
           fontSize: "2pt",
           fill: "Black",
         }}

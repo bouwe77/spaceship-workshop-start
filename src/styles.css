@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: Share Tech Mono;
   background-color: darkgrey;
 }
 
@@ -27,9 +27,29 @@ body {
   height: 135px;
 }
 
+.leftscreen {
+  position: absolute;
+  left: 140px;
+  top: 245px;
+  background-image: url("https://spaceship-workshop.netlify.com/mainscreen.svg");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+}
+
+.rightscreen {
+  position: absolute;
+  left: 530px;
+  top: 245px;
+  background-image: url("https://spaceship-workshop.netlify.com/mainscreen.svg");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+}
+
 .map {
-  color: pink;
-  margin: 20px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .map-modal {

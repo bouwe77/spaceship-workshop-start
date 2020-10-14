@@ -6,7 +6,8 @@ export default function Spaceship() {
     <>
       <h1>My Spaceship</h1>
       <div className="starfield">
-        <Cockpit />
+        {/*<div>TODO: Cockpit</div>*/}
+        <Cockpit/>
       </div>
     </>
   );

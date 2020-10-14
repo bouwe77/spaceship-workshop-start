@@ -84,7 +84,7 @@ function Label({
         width={textWidth}
         height={textHeight}
         style={{
-          fontFamily: "Roboto Mono",
+          fontFamily: "Share Tech Mono",
           fontSize: "6pt",
           fill: "Black",
         }}

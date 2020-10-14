@@ -115,6 +115,7 @@ export default () => {
           value={value}
           tool={tool}
           onChangeValue={(value) => setValue(value)}
+          onChangeTool={() => {}}
           width={mapWidth}
           height={mapHeight}
           onMouseMove={(event) =>

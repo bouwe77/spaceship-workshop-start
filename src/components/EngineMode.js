@@ -6,7 +6,7 @@ export const engineModes = {
   IMPULSE: "impulse",
 };
 
-export function EngineMode({ engineMode = engineModes.IDLE }) {
+export function EngineMode({ engineMode, setEngineMode }) {
   const { IDLE, THRUSTERS, IMPULSE } = engineModes;
 
   return (

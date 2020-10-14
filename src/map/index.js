@@ -16,12 +16,17 @@ const customStyles = {
 };
 
 export default () => {
-  const [modalIsOpen, setModalIsOpen] = useState(true);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   return (
     <>
-      <div className="map" onClick={() => setModalIsOpen(true)}>
-        ...
+      <div className="map">
+        <img
+          src="https://spaceship-workshop.netlify.com/map.png"
+          width="135"
+          alt="map"
+          onClick={() => setModalIsOpen(true)}
+        />
       </div>
 
       <Modal
